@@ -1,0 +1,207 @@
+:root {
+    --clr-primary: #2962ff;
+    --clr-primary-hover: #0d47a1;
+    --clr-gray-med: #78909c;
+    --clr-gray-light: #cfd8dc;
+  }
+.btn-group{
+      border: 1px solid rgba(0,0,0,0.1);
+     border-radius:5px;
+  }
+.register{
+
+
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.class{
+    color: #0062cc;
+}
+.name{
+
+    color:white;
+    text-decoration: underline;
+text-align: center;
+justify-content: center;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+}
+.user{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   border: #78909c 4px solid;
+   padding: 0   px;
+   margin-left: 110px;
+   align-items: center;
+   justify-content: center;
+
+}
+.int{
+    text-align: center;
+}
+.norec{
+    margin-left: 400px;
+}
+.act{
+    margin-left: 60px;
+margin-right: 60px;
+    text-align: center;
+ color:white;
+ background-image: linear-gradient(to left, #88ee9f, #b2c756, #d09930, #dd643c, #d12b5e);
+}
+.not-allowed{
+    cursor: not-allowed! important;
+       
+   }
+   
+.btnd{
+    float: left;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 20px;
+    bottom:10px;
+}
+.btnde{
+    float: left;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 80px;
+    bottom:10px;
+}
+.par{
+    text-align: center;
+    font-family:  sans-serif; 
+}
+.date{
+ float: right;
+ margin-bottom: 0px;
+ position: absolute;
+ right: 5px;
+ bottom:5px;
+}
+#blan{
+    height: 62px;
+    width: 62px;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+
+
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+.container1{
+    max-width: 60rem;
+    margin: 0px;
+}
+.div-shadow {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 340px;
+    height: 350px;
+    margin: 0 2em 2em 0;
+    box-shadow: 0px 0px 10px var(--clr-gray-med);
+    transition: all 100ms ease-in-out;
+    position:relative;
+    background-image: linear-gradient(to right, #3f79cf, #00a4ea, #00c7d0, #00e18f, #bfee49);
+  }
+
+  .div-shadow:hover {
+    transform: scale(1.1);
+  }
+  .divMain1{ 
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+  }
+  /* ugyyyyyyyyyyyyyyyy */
+
+  
